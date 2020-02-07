@@ -1,0 +1,43 @@
+.Home {
+    width: 1152px;
+    height: 700px;
+    background-color: var(--white);
+    margin: 0 auto 0 auto;
+}
+
+.Span-Search {
+    position: absolute;
+    margin-left: 201px;
+    margin-top: 325px;
+}
+
+/* Css a logo acima do campo de busca */
+.Logo {
+    width: 415px;
+    height: 81px;
+    font-size: 60px;
+    font-family: Monaco;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.Logo .text-style-1 {
+    font-family: Raleway;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.Span-Logo{
+    display: flex;
+    position: absolute;
+    vertical-align: bottom;
+    justify-content: space-between;
+    white-space: pre;
+    margin-left: 368px;
+    margin-top: 244px;
+}

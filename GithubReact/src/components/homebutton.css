@@ -1,0 +1,37 @@
+@font-face{
+    font-family: 'Monaco';
+    src: url('../fonts/Monaco.ttf')
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraLightItalic.ttf')
+}
+
+.Github-Search {
+    width: 280px;
+    height: 50px;
+    font-size: 40px;
+    font-family: Monaco;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.Github-Search .text-style-1 {
+    font-family: Raleway;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.Span-Home{
+    display: flex;
+    position: absolute;
+    vertical-align: bottom;
+    justify-content: space-between;
+    white-space: pre;
+}

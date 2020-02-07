@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Raleway-Light';
+    src: url('../fonts/Raleway-Light.ttf')
+}
+
+
+.Div-Repos-List{
+    display: inline-block;
+    height: 100%;
+}
+
+.Span-Repos-Detail{
+    position: initial;
+    display: inline-block;
+    height: 130px;
+    width: 600px;
+}
+
+.repo-name {
+    width: 375.5px;
+    height: 40.8px;
+    font-family: Raleway-Regular;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ac53f2;
+    display: inline-block;
+  }
+
+  .repo-description {
+    width: 600px;
+    height: 25.5px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    display: inline-block;
+    margin-bottom: 11.2px;
+  }
+
+  .star-count {
+    width: 255.3px;
+    height: 22.4px;
+    font-family: Raleway-Light;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5c5c5c;
+    display: inline-block;
+    margin-left: 7.4px;
+  }
+
+  .star-icon {
+    width: 25.5px;
+    height: 24.5px;
+    display: inline-block;
+  }
+
+.Align-Helper{
+    display: flex;
+    align-items:center;
+}
